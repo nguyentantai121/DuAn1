@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung_food"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_food"
+            android:layout_width="193dp"
+            android:layout_height="113dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banhtrangtron" />
+
+        <TextView
+            android:id="@+id/name_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/img_food"
+            android:text="Bánh tráng trộn" />
+
+        <TextView
+            android:id="@+id/gia_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/name_food"
+            android:text="Giá : 20.000đ" />
+
+        <Button
+            android:id="@+id/btn_addSP"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/name_food"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/baseline_add_circle_24" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home" >
+    <include layout="@layout/toobar"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+
+<!--        tools:ignore="UselessLeaf" >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_Anvat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="@drawable/buton_login"-->
+<!--            android:text="Ăn vặt" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_Nuoc"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="@drawable/buton_login"-->
+<!--            android:text="Nước" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="@drawable/buton_login"-->
+<!--            android:text="Button" />-->
+<!--    </LinearLayout>-->
+<!--&lt;!&ndash;    <androidx.viewpager.widget.ViewPager&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="540dp">&ndash;&gt;-->
+<!--&lt;!&ndash;        <androidx.recyclerview.widget.RecyclerView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/rcvFood"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </androidx.viewpager.widget.ViewPager>&ndash;&gt;-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rcvFood"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_height="540dp" />-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <include-->
+<!--            android:id="@+id/include_toolbar"-->
+<!--            layout="@layout/bottom_bar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"/>-->
+
+<!--    </RelativeLayout>-->
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_group_employee">
+        <item
+            android:id="@+id/donhang"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Đơn Hàng" />
+        <item
+            android:id="@+id/hethong"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="Đồng Bộ Hệ Thống" />
+        <item
+            android:id="@+id/lichsu"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Lịch Sử Đơn Hàng" />
+        <item
+            android:id="@+id/doanhthu"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Doanh Thu" />
+    </group>
+    <item android:title="profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/thongticanhan"
+                android:icon="@drawable/user"
+                android:title="thông tin cá nhân" />
+            <item
+                android:id="@+id/tknv"
+                android:icon="@drawable/user"
+                android:title="Tài Khoản Nhân Viên" />
+            <item
+                android:id="@+id/thoat"
+                android:icon="@drawable/user"
+                android:title="Đăng Xuất" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/lienhe"
+                    android:icon="@drawable/user"
+                    android:title="Liên Hệ" />
+                <item
+                    android:id="@+id/danhgia"
+                    android:icon="@drawable/user"
+                    android:title="Đánh giá" />
+                <item
+                    android:id="@+id/cskh"
+                    android:icon="@drawable/user"
+                    android:title="CSKH"/>
+            </group>
+        </menu>
+    </item>
+</menu>

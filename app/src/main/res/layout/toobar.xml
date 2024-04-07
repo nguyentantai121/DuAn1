@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#182C9A"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/baseline_menu_24" />
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/action_search"
+        android:layout_toEndOf="@+id/imageView"
+        app:queryHint="Tìm kiếm ....."
+        app:defaultQueryHint="tìm kiếm"
+         android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/search_view"
+        android:layout_width="221dp"/>
+<ImageButton
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_toEndOf="@+id/imageView"
+    android:layout_marginLeft="320dp"
+    app:srcCompat="@drawable/baseline_account_circle_24"/>
+</RelativeLayout>

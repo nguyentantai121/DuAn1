@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DA1" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.DA1" parent="Base.Theme.DA1" />
+    <color name="search_view_background">#ECEFF1</color>
+    <color name="search_view_text_color">#37474F</color>
+    <color name="search_view_hint_text_color">#9E9E9E</color>
+    <color name="search_view_icon_color">#78909C</color>
+    <color name="search_suggestion_text">#000000</color>
+    <color name="search_suggestion_divider">#BDBDBD</color>
+    <color name="search_suggestion_selected_text">#FFFFFF</color>
+</resources>

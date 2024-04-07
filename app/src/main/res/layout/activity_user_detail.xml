@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#FFFFFFFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".user_detail"
+        android:id="@+id/main">
+
+        <!-- Toolbar -->
+
+        <!-- Main Content Layout -->
+        <include layout="@layout/toobar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- User Profile Section -->
+            <LinearLayout
+                android:id="@+id/user_profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="26dp"
+                android:layout_marginHorizontal="18dp"
+                android:orientation="horizontal">
+
+                <!-- Profile Image Container -->
+                <RelativeLayout
+                    android:id="@+id/profile_image_container"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp">
+
+                    <!-- Profile Image -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/baseline_account_circle_24"/>
+
+                </RelativeLayout>
+
+                <!-- User Information Container -->
+                <LinearLayout
+                    android:id="@+id/user_info_container"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <!-- User Name TextView -->
+                    <TextView
+                        android:id="@+id/user_name_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guest"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="9dp"/>
+
+                    <!-- User Username TextView -->
+                    <TextView
+                        android:id="@+id/user_username_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hero261102"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Bio Section -->
+            <LinearLayout
+                android:id="@+id/bio_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="7dp"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <!-- Bio Icon -->
+                <ImageView
+                    android:id="@+id/bio_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/user"
+                    android:scaleType="fitXY"/>
+
+                <!-- Bio TextView -->
+                <TextView
+                    android:id="@+id/bio_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bio"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/age_textinputlayoutbio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/age_edittextbio"
+                    android:paddingBottom="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:hint="Tell us a little bit about yourself"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Age Section -->
+            <LinearLayout
+                android:id="@+id/age_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <!-- Age Icon -->
+                <ImageView
+                    android:id="@+id/age_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:src="@drawable/user"
+                    android:scaleType="fitXY"/>
+
+                <!-- Age TextView -->
+                <TextView
+                    android:id="@+id/age_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tuổi"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <!-- Age TextInputLayout -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/age_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/age_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Phone Number Section -->
+            <LinearLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <!-- Phone Icon -->
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:src="@drawable/baseline_phone_24"
+                    android:scaleType="fitXY"/>
+
+                <!-- Phone TextView -->
+                <TextView
+                    android:id="@+id/phone_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Số điện thoại"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <!-- Phone Number TextInputLayout -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phone_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:text=""
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Bottom Bar -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <include
+                    android:id="@+id/include_toolbar"
+                    layout="@layout/bottom_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+

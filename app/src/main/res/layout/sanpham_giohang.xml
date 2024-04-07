@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgSP_Giohang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/khung_food"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banhtrangtron" />
+
+            <TextView
+                android:id="@+id/tvGiohang_nameSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/imgSP_Giohang"
+                android:textSize="20dp"
+                android:text="Tên Sản Phẩm" />
+
+            <TextView
+                android:id="@+id/tvGiohang_gia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvGiohang_nameSP"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/imgSP_Giohang"
+                android:textSize="20dp"
+                android:text="Giá Sản Phẩm" />
+
+            <TextView
+                android:id="@+id/tvGiohang_SL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvGiohang_gia"
+                android:layout_marginLeft="22dp"
+                android:textSize="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/btnGiohang_giam"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnGiohang_giam"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tvGiohang_gia"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/imgSP_Giohang"
+                android:text="-" />
+
+
+            <Button
+
+                android:id="@+id/btnGiohang_tang"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tvGiohang_gia"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/tvGiohang_SL"
+                android:src="@drawable/baseline_account_circle_24"
+                android:text="+" />
+
+            <ImageButton
+                android:id="@+id/btnGiohang_xoa"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_alignBottom="@+id/tvGiohang_gia"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="-23dp"
+                android:background="@color/white"
+                android:src="@drawable/thungrac32" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DA1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    </style>
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Thiết lập màu nền cho ô tìm kiếm -->
+        <item name="android:background">@color/search_view_background</item>
+
+        <!-- Thiết lập màu chữ cho văn bản trong ô tìm kiếm -->
+        <item name="android:textColor">@color/search_view_text_color</item>
+
+        <!-- Thiết lập màu chữ cho văn bản gợi ý -->
+        <item name="android:textColorHint">@color/search_view_hint_text_color</item>
+
+    </style>
+
+</resources>

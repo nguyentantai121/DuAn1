@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F5DF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="271dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/trangchu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inder"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center|top"
+        android:text="Xin chào" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inder"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center|top"
+        android:text="Đồ ăn vật" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inder"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center|top"
+        android:text="Hãy cùng trải nghiệm sự tiện lợi và nhanh chóng của việc đặt đồ ăn thông qua ứng dụng" />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buton_login"
+        android:fontFamily="@font/inder"
+        android:textSize="25dp"
+        android:backgroundTint="#97D963"
+        android:text="Đăng nhập" />
+</LinearLayout>
